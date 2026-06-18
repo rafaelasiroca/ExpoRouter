@@ -13,11 +13,11 @@ export default function Index() {
 
   return (
   <View style={styles.container}>
-    <Image
-      source={require("../assets/images/logo.jpg")}
+   <Image
+      source={require("../assets/images/logo.png")}
       style={styles.logo}
-      resizeMode="cover"
-    />
+      resizeMode="contain"
+/>
 
     <Text style={styles.title}>Clube de Cinema</Text>
 
@@ -45,6 +45,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
+    color:"#fcf4f4",
+
   },
   title: {
     fontSize: 28,
@@ -52,7 +54,7 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   button: {
-    backgroundColor: "#00ee3b",
+    backgroundColor: "#c01010",
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 8,
@@ -61,14 +63,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   buttonText: {
-    color: "#fff",
+    color: "#fcf4f4",
     fontSize: 16,
     fontWeight: "600",
   },
   logo: {
     
-  width: 180,
-  height: 150,
-  marginBottom: 10,
+  width: 200,
+  height: 200,
+  marginBottom: 2,
 },
 });
