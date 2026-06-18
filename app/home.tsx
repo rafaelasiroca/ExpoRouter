@@ -22,7 +22,7 @@ export default function Home() {
         style={styles.button}
         onPress={() => router.back()}
       >
-        <Text style={styles.buttonText}>Voltar</Text>
+        <Text style={styles.buttonText}>Voltar à Tela Inicial</Text>
       </Pressable>
     </View>
   );
